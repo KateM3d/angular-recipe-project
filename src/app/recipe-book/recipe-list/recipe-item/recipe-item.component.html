@@ -1,1 +1,13 @@
-<p>recipe-item works!</p>
+<div class="card" style="width: 18rem;">
+    <a href="#" class="list-group-item clearfix" (click)="onSelectedCard()">
+        <span class="pull-right">
+                <img [src]="recipe.imagePath" alt="{{recipe.name}}" class="img-responsive" style="max-height: 50px;">
+            </span>
+        <div class="card-body">
+            <h4 class="list-group-item-heading">
+                {{recipe.name}}
+            </h4>
+            <p class="list-group-item-text">{{recipe.description}}</p>
+        </div>
+    </a>
+</div>
