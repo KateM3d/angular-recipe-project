@@ -1,7 +1,7 @@
-<div class="card" style="width: 18rem;">
-    <a href="#" class="list-group-item clearfix" (click)="onSelectedCard()">
+<div class="card" style="width: 18rem; border: 1px solid green;margin: 10px; display: flex;">
+    <a href="#" class="list-group-item clearfix" (click)="onSelectedCard()" style="display:flex;flex-direction:column; justify-content:center; align-items:center; margin: 20px">
         <span class="pull-right">
-                <img [src]="recipe.imagePath" alt="{{recipe.name}}" class="img-responsive" style="max-height: 50px;">
+                <img [src]="recipe.imagePath" alt="{{recipe.name}}" class="img-responsive" style="max-height: 100px; width: 100%;">
             </span>
         <div class="card-body">
             <h4 class="list-group-item-heading">

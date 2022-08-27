@@ -1,0 +1,14 @@
+.container-recipe {
+    margin: 100px auto;
+}
+
+.recipe {
+    &-name {
+        color: green;
+        font-size: 24px;
+        margin-top: 20px;
+        text-decoration: underline;
+    }
+    &-ingredients {}
+    &-description {}
+}
